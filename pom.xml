@@ -7,7 +7,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>SpringTiles</name>
   <url>http://maven.apache.org</url>
-   <repositories>
+
+  <!-- Configuration of repositories -->	
+
+  <repositories>
         <repository>
             <id>redhat-techpreview-all-repository</id>
             <url>https://maven.repository.redhat.com/techpreview/all/</url>
@@ -18,9 +21,8 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
-    </repositories>
-
-    <pluginRepositories>
+  </repositories>
+  <pluginRepositories>
         <pluginRepository>
             <id>redhat-techpreview-all-repository</id>
             <url>https://maven.repository.redhat.com/techpreview/all/</url>
@@ -31,7 +33,7 @@
                 <enabled>false</enabled>
             </snapshots>
         </pluginRepository>
-    </pluginRepositories>
+  </pluginRepositories>
 
     <properties>
         <!-- Explicitly declaring the source encoding eliminates the following
