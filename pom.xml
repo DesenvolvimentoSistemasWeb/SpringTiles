@@ -8,7 +8,7 @@
   <name>SpringTiles</name>
   <url>http://maven.apache.org</url>
 
-  <!-- Configuration of repositories -->	
+  <!-- Configuration of repositories for redhat.com -->
 
   <repositories>
         <repository>
